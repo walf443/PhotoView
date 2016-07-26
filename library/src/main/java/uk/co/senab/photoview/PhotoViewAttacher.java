@@ -394,9 +394,9 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener,
 
     @Override
     public void onDrag(float dx, float dy) {
-        if (mScaleDragDetector.isScaling()) {
-            return; // Do not drag if we are already scaling
-        }
+        // if (mScaleDragDetector.isScaling()) {
+        //     return; // Do not drag if we are already scaling
+        // }
 
         if (DEBUG) {
             LogManager.getLogger().d(LOG_TAG,
